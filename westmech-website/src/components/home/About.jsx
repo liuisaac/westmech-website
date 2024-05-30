@@ -14,11 +14,11 @@ const About = () => {
                         our camps, events, and club programs.
                     </p>
                     <div className="w-full flex-row-start gap-5 text-[#161616] mt-4">
-                        <button className="px-4 h-10 bg-[#939393] rounded-full text-[#939393] border-2 border-[#939393] bg-opacity-0 hover:bg-opacity-100 hover:text-white duration-500 ease-in-out transition-colors">
-                            Sign up for a class
+                        <button className="px-4 h-10 bg-[#939393] rounded-full text-[#939393] border-2 border-[#939393] bg-opacity-0 hover:bg-opacity-100 duration-100 ease-in-out transition-colors">
+                            <span className="hover:text-white duration-500 ease-in-out transition-colors">Sign up for a class</span>
                         </button>
-                        <button className="px-4 h-10 bg-[#939393] rounded-full text-[#939393] border-2 border-[#939393] bg-opacity-0 hover:bg-opacity-100 hover:text-white duration-500 ease-in-out transition-colors">
-                            See upcoming events →
+                        <button className="px-4 h-10 bg-[#939393] rounded-full text-[#939393] border-2 border-[#939393] bg-opacity-0 hover:bg-opacity-100 duration-100 ease-in-out transition-colors">
+                            <span className="hover:text-white duration-500 ease-in-out transition-colors">See upcoming events →</span>
                         </button>
                     </div>
                 </header>

@@ -1,4 +1,6 @@
 import React from "react";
+import Image from "next/image";
+import { programs } from "./programs.json";
 
 const Programs = () => {
     return (
@@ -12,8 +14,30 @@ const Programs = () => {
             <p className="w-[80vw] text-3xl mt-2 tracking-tighter">
                 Join our intro classes (robotics 101 - 1 day trial)
             </p>
-            <figure></figure>
-            <div className="w-[80vw] h-full flex-row-end text-xl font-medium mt-[50vh]">
+            <div className="w-[80vw] flex-row-start">
+                <figure className="flex-row-start w-full gap-16 overflow-x-scroll mt-12">
+                    {programs.map((program, key) => (
+                        <figure key={key} className="mb-16 hover:cursor-pointer">
+                            <figure className="w-[30vw] h-[40vh] relative rounded-2xl overflow-hidden">
+                                <Image
+                                    src={program.thumbnail}
+                                    alt="A picture of our facility's stations"
+                                    style={{ objectFit: "cover" }}
+                                    fill
+                                />
+                            </figure>
+                            <header className="font-semibold mt-6 text-4xl">
+                                {program.name}
+                            </header>
+                            <p className="mt-2 text-xl font-light leading-tight">
+                                {program.description}
+                            </p>
+                        </figure>
+                    ))}
+                </figure>
+            </div>
+
+            <div className="w-[80vw] h-full flex-row-end text-xl font-medium mt-16">
                 <button className="hover:text-[#017FE0] transition duration-500 ease-in-out">
                     See all Programs →
                 </button>
