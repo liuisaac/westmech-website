@@ -6,7 +6,7 @@ const Hero = () => {
         <section className="w-screen flex-col-centered pt-16">
             <header className="relative w-[80vw] h-[20vw] flex-col-left text-9xl font-medium tracking-tighter">
                 <p>Building The Next</p>
-                <p>Generation's <span className="text-[#017FE0]">Engineers</span></p>
+                <p>Generation's <span className="bg-clip-text bg-gradient-to-r from-[#0F86E1] to-[#7DBCEC] text-transparent pr-4">Engineers</span></p>
                 
             </header>
             <figure className="relative w-[80vw] h-[90vh] rounded-xl overflow-hidden">

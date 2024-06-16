@@ -37,13 +37,13 @@ const Navbar = () => {
             }}
             animate={hidden ? "hidden" : "visible"}
             transition={{ duration: 0.7, ease: "easeInOut" }}
-            className="w-screen h-16 bg-white flex-col-centered z-50 fixed top-0"
+            className="w-screen h-16 bg-[#F4F4F6] flex-col-centered z-50 fixed top-0"
         >
             <div className="w-[80vw] flex-row-centered h-14">
                 <figure className="w-1/3 flex-row-start">
                     <div className="relative w-40 h-14 -ml-4">
                         <Image
-                            src="/nav/westmech logo.png"
+                            src="/nav/westmech logo.svg"
                             alt="western mechatronics logo"
                             style={{objectFit: "contain"}}
                             fill
