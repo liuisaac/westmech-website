@@ -4,7 +4,7 @@ const About = () => {
     return (
         <section className="w-screen h-[50vh] flex-row-centered">
             <div className="w-[80vw] flex-row-centered border-b-[1px] pb-16 border-black">
-                <aside className="w-1/3 flex-row-start text-9xl font-medium tracking-tighter">
+                <aside className="w-1/3 flex-row-start text-8xl-responsive font-medium tracking-tighter">
                     About Us
                 </aside>
                 <header className="w-2/3 flex-col-centered text-2xl">

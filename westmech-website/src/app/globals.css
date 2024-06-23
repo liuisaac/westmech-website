@@ -88,6 +88,35 @@ body {
     @apply flex flex-row items-center justify-start;
 }
 
+.text-9xl-responsive {
+    @apply 2xl:text-9xl xl:text-8xl lg:text-7xl md:text-6xl sm:text-5xl text-4xl
+}
+
+.text-8xl-responsive {
+    @apply 2xl:text-8xl xl:text-7xl lg:text-6xl md:text-5xl sm:text-4xl text-3xl
+}
+
+.text-7xl-responsive {
+    @apply 2xl:text-7xl xl:text-6xl lg:text-5xl md:text-4xl sm:text-3xl text-2xl
+}
+
+.text-6xl-responsive {
+    @apply 2xl:text-6xl xl:text-6xl lg:text-5xl md:text-4xl sm:text-3xl text-2xl
+}
+
+.text-5xl-responsive {
+    @apply 2xl:text-5xl xl:text-4xl lg:text-3xl md:text-2xl sm:text-xl text-lg
+}
+
+.text-4xl-responsive {
+    @apply 2xl:text-4xl xl:text-3xl lg:text-2xl md:text-xl sm:text-lg text-sm
+}
+
+.text-3xl-responsive {
+    @apply 2xl:text-3xl xl:text-2xl lg:text-xl md:text-xl sm:text-lg text-sm
+}
+
+
 .hide-scrollbar  {
   scrollbar-width: none;
   -ms-overflow-style: none;

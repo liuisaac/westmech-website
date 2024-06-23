@@ -17,7 +17,7 @@ const Team = () => {
                             fill
                         />
                     </figure>
-                    <h2 className="text-3xl w-full tracking-tighter">
+                    <h2 className="text-3xl-responsive w-full tracking-tighter">
                         Western Mechatronics was founded in 2019 by high school
                         friends who recognized the need for robotics education.
                     </h2>
@@ -110,10 +110,10 @@ const Team = () => {
                         />
                     </figure>
                 </figure>
-                <header className="text-white text-7xl tracking-tighter font-medium">
+                <header className="text-white text-7xl-responsive tracking-tighter font-medium">
                     Want to work with us?
                 </header>
-                <button className="mt-16 w-[25vw] h-[3vw] rounded-full text-white text-4xl border-2 bg-white bg-opacity-5">
+                <button className="mt-16 w-[25vw] h-[3vw] rounded-full text-white text-4xl-responsive border-2 bg-white bg-opacity-5">
                     Become a Partner →
                 </button>
             </footer>

@@ -12,7 +12,7 @@ const Space = () => {
                         robotics education facility in the city
                     </p>
                 </div>
-                <aside className="w-1/2 flex-row-end text-9xl font-medium tracking-tighter">
+                <aside className="w-1/2 flex-row-end text-8xl-responsive font-medium tracking-tighter">
                     Our Space
                 </aside>
             </header>

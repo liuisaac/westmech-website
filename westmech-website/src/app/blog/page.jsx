@@ -20,7 +20,7 @@ const page = () => {
                 </figure>
                 <div className="w-[80vw] py-4 border-b-2 border-black border-opacity-40 flex-row-start">
                     <button
-                        className={`text-3xl pr-4 border-r-2 border-black border-opacity-40 ${
+                        className={`text-3xl-responsive pr-4 border-r-2 border-black border-opacity-40 ${
                             Tab === "FEATURED" ? "text-black" : "text-[#999999]"
                         }`}
                         onClick={() => {
@@ -30,7 +30,7 @@ const page = () => {
                         FEATURED
                     </button>
                     <button
-                        className={`text-3xl px-4 border-r-2 border-black border-opacity-40 ${
+                        className={`text-3xl-responsive px-4 border-r-2 border-black border-opacity-40 ${
                             Tab === "2024" ? "text-black" : "text-[#999999]"
                         }`}
                         onClick={() => {
@@ -40,7 +40,7 @@ const page = () => {
                         2024
                     </button>
                     <button
-                        className={`text-3xl px-4 border-r-2 border-black border-opacity-40 ${
+                        className={`text-3xl-responsive px-4 border-r-2 border-black border-opacity-40 ${
                             Tab === "2023" ? "text-black" : "text-[#999999]"
                         }`}
                         onClick={() => {
@@ -50,7 +50,7 @@ const page = () => {
                         2023
                     </button>
                     <button
-                        className={`text-3xl px-4 border-r-2 border-black border-opacity-40 ${
+                        className={`text-3xl-responsive px-4 border-r-2 border-black border-opacity-40 ${
                             Tab === "2022" ? "text-black" : "text-[#999999]"
                         }`}
                         onClick={() => {

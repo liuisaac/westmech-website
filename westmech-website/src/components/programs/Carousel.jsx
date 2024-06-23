@@ -11,7 +11,7 @@ const Carousel = () => {
                 <OneDayTrial />
                 <SummerCamp />
             </article>
-            <h3 className="w-[80vw] flex flex-row items-center justify-center text-black text-4xl gap-5 mt-24">
+            <h3 className="w-[80vw] flex flex-row items-center justify-center text-black text-4xl-responsive gap-5 mt-24">
                 <span className="inline text-[#017FE0]">01</span>
                 <p>02</p>
                 <p>03</p> <p>→</p>

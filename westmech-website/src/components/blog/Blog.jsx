@@ -19,22 +19,22 @@ const Blog = () => {
                         />
                     </figure>
                     <div className="text-black ml-10 w-[50vw] pr-[10vw] h-full">
-                        <h2 className="text-4xl font-normal mb-10">
+                        <h2 className="text-4xl-responsive font-normal mb-10">
                             {item.date}
                         </h2>
-                        <header className="text-6xl font-medium tracking-tighter">
+                        <header className="text-6xl-responsive font-medium tracking-tighter">
                             {item.name}
                         </header>
-                        <p className="text-3xl opacity-50">
+                        <p className="text-3xl-responsive opacity-50">
                             {item.description}
                         </p>
-                        <button className="hover:text-[#017FE0] transition duration-500 ease-in-out mt-16 text-3xl tracking-tighter">
+                        <button className="hover:text-[#017FE0] transition duration-500 ease-in-out mt-16 text-3xl-responsive tracking-tighter">
                             Read more →
                         </button>
                     </div>
                 </article>
             ))}
-            <button className="hover:text-[#017FE0] transition duration-500 ease-in-out mt-6 mb-16 text-3xl underline tracking-tighter">
+            <button className="hover:text-[#017FE0] transition duration-500 ease-in-out mt-6 mb-16 text-3xl-responsive underline tracking-tighter">
                 ALL BLOGS
             </button>
         </div>
